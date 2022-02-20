@@ -1,0 +1,22 @@
+$primaryColor: sandybrown;
+$secondaryColor: blue;
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  color: $primaryColor;
+  height: 200px;
+  background: url("../images/news.jpg");
+}
+
+.container {
+  &-subtitle {
+    color: $secondaryColor;
+    height: 200px;
+    background: url("../images/logo.png");
+    display: flex;
+    justify-content: center;
+  }
+}
